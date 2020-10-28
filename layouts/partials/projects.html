@@ -1,0 +1,27 @@
+<div class="projects">
+	{{ range .ByParam "date" }}
+	{{ .Params.layout }}
+	<article class="project" {{ if .Params.width }} style="width: {{ .Params.width }}%" {{ end }}>
+		<a href="{{ .RelPermalink }}">
+			<div class="images">
+				{{ with .Resources.Match "*_main*" }}
+   			{{ range sort . }}
+			  {{ $image := . }}
+			  {{ if .Params.width }}
+			  {{ $image := $image.Resize "900x q90" }}
+			  {{ end }}
+				<img src="{{ $image.RelPermalink }}" />
+				{{ end }}
+				{{ end }}
+			</div>
+			<footer>
+				<div>
+					<h2>{{ .Title }}</h2>
+				</div>
+				<span class="date">{{ dateFormat "2006" .Params.date }}</span>
+			</footer>
+		</a>
+	</article>
+
+	{{ end }}
+</div>

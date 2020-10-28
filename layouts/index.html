@@ -1,0 +1,6 @@
+{{ define "main" }}
+
+{{ $projects := where site.RegularPages "Params.layout" "!=" "about" }}
+{{ partial "projects.html" $projects }}
+
+{{ end }}
