@@ -2,7 +2,7 @@
 title: "Planetesimal"
 date: 2020-10-26
 draft: false
-video: https://youtu.be/GEw0ePZUMHA
+
 ---
 
-Planetesimal here...
+Steel, Plaster, PCB, LED, Code. 746 x 746 x 101 mm

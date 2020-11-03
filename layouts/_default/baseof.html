@@ -9,7 +9,7 @@
 	<title>{{ if .Title }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
 	<meta name="description" content="{{ .Site.Params.Description }}">
 
-	<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400&display=swap" rel="stylesheet"> 
 	{{ $styles := resources.Get "scss/main.scss" | toCSS | minify | fingerprint }}
 	<link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
 
@@ -20,7 +20,7 @@
 			{{ partial "logo.html" }}
 			<nav>
 				{{ if not .IsHome }}
-				<a href="/" title="Work">Work</a>
+				<a href="/" title="ARTWORK">ARTWORK</a>
 				{{ end }}
 				{{ $currentPage := . }}
 				{{ range .Site.Menus.main }}
