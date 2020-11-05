@@ -2,26 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Star Holden</title>
-    <link>http://example.org/</link>
+    <link>http://starholden.com/</link>
     <description>Recent content on Star Holden</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-gb</language><atom:link href="http://starholden.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Planetesimal</title>
-      <link>http://example.org/planetesimal/</link>
-      <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
+      <title>BIOGRAPHY</title>
+      <link>http://starholden.com/biography/</link>
+      <pubDate>Mon, 26 Oct 2020 15:06:35 +0000</pubDate>
       
-      <guid>http://example.org/planetesimal/</guid>
-      <description>Planetesimal here&amp;hellip;</description>
+      <guid>http://starholden.com/biography/</guid>
+      <description>For millennia our fascination with what lies above us has shaped our beliefs, scientific advances, biology and continues to captivate the human imagination. With the recent dawn of technology we have separated ourselves from this wondrous relationship.
+Born 1st August 1988, Star Holden is a self taught artist based in London renowned for inventive minimal design solutions informed by an array of traditional techniques and digital fabrication methods.
+In 2018 Star set up his own practice creating artwork as a medium for capturing natural phenomena and exploring our connection to the cosmos.</description>
     </item>
     
     <item>
       <title>Planetesimal</title>
-      <link>http://example.org/rheostatic/</link>
+      <link>http://starholden.com/planetesimal/</link>
       <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/rheostatic/</guid>
-      <description>Planetesimal here&amp;hellip;</description>
+      <guid>http://starholden.com/planetesimal/</guid>
+      <description>Planitesimal 2020 Steel, Plaster, PCB, LED, Code. 746 x 746 x 101 mm
+Planitesimal imagines witnessing the movement of light and shadow cast by light from our sun across the Rheasilvia crater as asteroid 4 Vesta silently tumbles through space.
+Protoplanet Vesta formed at the same time and in the same way unique to only earth and our moon. Dust and gas from the early planetary disk coalesced to form thousands of planetesimals when our solar system was still a nebula.</description>
     </item>
     
   </channel>

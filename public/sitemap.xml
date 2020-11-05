@@ -3,25 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/planetesimal/</loc>
+    <loc>http://starholden.com/biography/</loc>
+    <lastmod>2020-10-26T15:06:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://starholden.com/planetesimal/</loc>
     <lastmod>2020-10-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/rheostatic/</loc>
-    <lastmod>2020-10-26T00:00:00+00:00</lastmod>
+    <loc>http://starholden.com/categories/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>http://starholden.com/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>http://starholden.com/tags/</loc>
   </url>
   
 </urlset>

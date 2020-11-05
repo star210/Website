@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ $work := where site.RegularPages "Params.layout" "!=" "about" }}
+{{ $work := where site.RegularPages "Params.layout" "!=" "bio" }}
 {{ partial "work.html" $work }}
 
 {{ end }}

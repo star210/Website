@@ -13,9 +13,10 @@ $extra-wide: "(min-width: 1100px)";
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font-size: 20px;
+  font-size: 15px;
   font-family: 'Rajdhani', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
+  color: #111;
 }
 
 body {
@@ -47,7 +48,7 @@ $page-width: 1000px;
 #container > header {
   $hpad: 5px;
   margin-top: $vert-margin;
-  padding: 0 $hpad;
+  padding: 30px $hpad;
   display: flex;
   align-items: baseline;
 
@@ -99,7 +100,7 @@ body > footer {
   } // end header
 
   div.content {
-	margin: $vert-margin 0;
+	margin: $vert-margin 0.25em;
   }
 
   img {
@@ -264,8 +265,8 @@ ul {
 .video-container iframe, .video-container object, .video-container embed {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
+  left: 15%;
+  width: 70%;
   height: 100%;
 }
 
