@@ -1,7 +1,7 @@
 $phone-width: 600px;
 $phone: "(max-width: #{$phone-width})";
 $not-phone: "(min-width: #{$phone-width})";
-$extra-wide: "(min-width: 1100px)";
+$extra-wide: "(min-width: 1000px)";
 
 * {
   text-decoration: unset;
@@ -31,7 +31,7 @@ body {
 
 $grid-padding: 5px;
 $vert-margin: 15px;
-$page-width: 1000px;
+$page-width: 900px;
 
 #container {
   width: 100%;
@@ -48,7 +48,7 @@ $page-width: 1000px;
 #container > header {
   $hpad: 5px;
   margin-top: $vert-margin;
-  padding: 30px $hpad;
+  padding: 10px $hpad;
   display: flex;
   align-items: baseline;
 
@@ -99,13 +99,16 @@ body > footer {
 	}
   } // end header
 
-  div.content {
-	margin: $vert-margin 0.25em;
+div.content {
+  margin: $vert-margin 0.25em;
+  text-align: justify;
+  text-justify: inter-word;
   }
 
   img {
-	margin: 0 auto;
-	margin-bottom: 1em;
+	
+  margin-bottom: 4em;
+  margin-top: 2em;
   }
 }
 
@@ -234,12 +237,15 @@ ul {
   display: flex;
   font-size: 14px;
   font-weight: 400;
+  text-align: justify;
+  text-justify: inter-word;
 
   div.bio {
-	flex: 1;
+  flex: 1;
+
   }
   div.image {
-  margin-left: 10px;
+  margin-left: 40px;
 	width: 40%;
 	img {
 	  width: 100%;
